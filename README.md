@@ -6,7 +6,7 @@ GitHub repository for GW Data Visualization and Analytics Bootcamp final project
 
 ### Resources
 - **Input:**
-- **Software/Tools:** Python, Jypyter Notebook
+- **Software/Tools:** Python, Jupyter Notebook
 - **Output:**
 
 ## Project Details
