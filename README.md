@@ -24,7 +24,13 @@ Primary team communication will be done using the "group-1" channel on Slack. Me
 *ENTER SEGMENT 1 DETAILS HERE: TBD to fill-in*
 
 ### Machine Learning *("Triangle" Role)*
-*ENTER SEGMENT 1 DETAILS HERE: Carlos to fill-in*
+For each neigborhood we read in two files - the total neighborhood csv file, and the recent sales csv file. After adding a new column to the sales file, titled 'Did it sell?', which will later become our Target column, we merge our two dataframes, which both share a column called 'Parcel'. 
+
+Once the two files are merged we drop some columns that we don't need and convert all of our columns that have binary values like 'yes' and 'no' to '1' and '0'. Then we encode all of our columns that have categorical data. At this stage we are now ready to begin our machine learning. 
+
+For our machine learning, we'll be trying to correctly predict the houses that sold, so a simple supervised machine learning model will do. 
+
+First, we assign our target column 'Did it sell?' to the variable 'y' and assign everything else to the variable 'x'. We then split our data into training and testing sets, scale our data, fit our model to our scaled data, instantiate our ML model, make predictions, and evaluate their accuracy. 
 
 ### Dashboard/Presentation 
 *No dashboard info needed to segment 1*
