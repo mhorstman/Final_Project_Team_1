@@ -26,15 +26,16 @@ streetsMap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y
 }).addTo(myMap);
 
 // Link to LA neighborhood GeoJSON data
-// const neighborhoodGeoJson = "http://s3-us-west-2.amazonaws.com/boundaries.latimes.com/archive/1.0/boundary-set/la-county-neighborhoods-current.geojson";
-// ALTERNATE Link to LA neighborhood GeoJSON data; Run "python -m http.server" in terminal first
+// Run "python -m http.server" in terminal first
 const neighborhoodGeoJson = "static/data/la-county-neighborhoods-current.geojson";
 const neighborhoods = ["West Hollywood", "Hollywood Hills West", "Beverly Grove", "Hancock Park", "Hollywood Hills", "Hollywood", "Los Feliz"];
+const salesJson = "output.json"
 
 // Define overlay map layers
 let neighborhoodOverlay = new L.layerGroup();
 let overlayMaps = {
   "Neighborhoods": neighborhoodOverlay
+  // "Sales": salesOverlay
 };
 let baseMaps = {
   "Light": lightMap,
@@ -94,7 +95,15 @@ neighborhoodOverlay.addTo(myMap);
 //   destination.cities.forEach(function(city) {
 //     L.marker([city.lat, city.lng], {icon: pinIcon})
 //     .bindPopup("<h6>"+city.name+"</h6>")
-//     .addTo(citiesOverlay);
+//     .addTo(salesOverlay);
 //   });
 // });
-// citiesOverlay.addTo(myMap);
+// salesOverlay.addTo(myMap);
+
+d3.json(salesJson, function(data) {
+  console.log(data);
+  });
+
+//   }).addTo(salesOverlay);
+// });
+// salesOverlay.addTo(myMap); 
