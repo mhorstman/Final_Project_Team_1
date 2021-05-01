@@ -15,15 +15,6 @@ The large number of categorical variables means that it is difficult to visually
 One of the major challenges for our model is to properly divide the data into training and testing sets. The nature of real estates means that their sales frequency and success rate of sales are much lower than typical commodities. Therefore, there is a disproportional amount of data in the “not sold” bracket, causing a high accuracy but low probability in the predicted results.<br />
 Hence, we will be using decision trees and random forests to exploit the binomial variables. 
 
-![image](https://user-images.githubusercontent.com/74267597/116783379-67caf700-aa5c-11eb-8e55-887aae269f51.png)
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/74267597/116783357-4ec24600-aa5c-11eb-9751-450bd77eedc0.png)
-
-
 
 ### Resources
 - **Input:**
