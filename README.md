@@ -13,6 +13,7 @@ SVM was not particularly helpful in classifying the data, which we believe was c
 The large number of categorical variables means that it is difficult to visually observe group distinctions using logistic regression or SVM.<br />
 
 One of the major challenges for our model is to properly divide the data into training and testing sets. The nature of real estates means that their sales frequency and success rate of sales are much lower than typical commodities. Therefore, there is a disproportional amount of data in the “not sold” bracket, causing a high accuracy but low probability in the predicted results.<br />
+
 Hence, we will be using decision trees and random forests to exploit the binomial variables. 
 
 
