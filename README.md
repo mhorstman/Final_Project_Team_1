@@ -8,6 +8,23 @@ We have noticed the lack of implementation of data in the process of home sales 
 
 The question that we hope to answer with the data we have is how a salesperson can use the features of a property to predict his/her rate of success of making a sale, features such as overall size, price, age, number of rooms, with or without a fireplace, etc. We are looking to achieve at least 80% accuracy with our model with the data available.<br /> 
 
+### Description of data exploration and processing
+SVM was not particularly helpful in classifying the data, which we believe was caused by the large number of categorical variables in the dataset. because of the number of categorical variables. The SVM results in a model with high accuracy score but low precision.
+The large number of categorical variables means that it is difficult to visually observe group distinctions using logistic regression or SVM.<br />
+
+One of the major challenges for our model is to properly divide the data into training and testing sets. The nature of real estates means that their sales frequency and success rate of sales are much lower than typical commodities. Therefore, there is a disproportional amount of data in the “not sold” bracket, causing a high accuracy but low probability in the predicted results.<br />
+Hence, we will be using decision trees and random forests to exploit the binomial variables. 
+
+![image](https://user-images.githubusercontent.com/74267597/116783379-67caf700-aa5c-11eb-8e55-887aae269f51.png)
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/74267597/116783357-4ec24600-aa5c-11eb-9751-450bd77eedc0.png)
+
+
+
 ### Resources
 - **Input:**
 - **Software/Tools:** Python, Jupyter Notebook
