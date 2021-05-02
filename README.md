@@ -44,6 +44,14 @@ For our machine learning, we'll be trying to correctly predict the houses that s
 
 First, we assign our target column 'Did it sell?' to the variable 'y' and assign everything else to the variable 'x'. We then split our data into training and testing sets, scale our data, fit our model to our scaled data, instantiate our ML model, make predictions, and evaluate their accuracy. 
 
+We run through 16 supervised machine learning models, and evaluate their performance based on three metrics. 
+
+- [x] Accuracy Score 
+- [x] Balanced Accuracy Score
+- [x] F1 i.e 'Harmonic Mean' Score
+
+The best model turns out to be a simple Logistic Regression with a few important modifications. We separate out Single Family Homes from Condos, we scale the data, and we perform a Principal Components Analysis which reduces the features to 3 columns. This is then applied to all seven neighborhoods and both property categories (Single Family Home and Condo). The resulting predictions are in the 
+
 ### Dashboard/Presentation 
 The dashboard will be developed in Tableau Dasgboard with the presentation created with Tableau Story. An initial draft of the dashboard has been created although the sales outcome data is simulated and needs to be connected to the machine learning model.  
 [Sample Dashboard](https://public.tableau.com/profile/mike.horstman#!/vizhome/Final_Project_Example/TheSellerNextDoor?publish=yes)
