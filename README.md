@@ -30,7 +30,9 @@ Repository set up in GitHub and access provided to all Team 1 resources (Carlos 
 Primary team communication will be done using the "group-1" channel on Slack. Meetins will be set up regularly over Zoom for team collaboration and checkpoints.
 
 ### Database *("Circle" Role)*
-*ENTER SEGMENT 1 DETAILS HERE: Koiyan to fill-in*
+Create an AWS RDS database for easy connectivity amongst group members. 
+Setup Postgres using PG Admin and connect with AWS using Endpoint for connectivity.
+Create two tables "Sales and Total" with foreign and primary keys under the real-estate database. Import the data form cleaned real-estate CSV data.
 
 ### Machine Learning *("Triangle" Role)*
 For each neigborhood we read in two files - the total neighborhood csv file, and the recent sales csv file. After adding a new column to the sales file, titled 'Did it sell?', which will later become our Target column, we merge our two dataframes, which both share a column called 'Parcel'. 
