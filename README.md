@@ -9,8 +9,8 @@ We have noticed the lack of implementation of data in the process of home sales 
 The question that we hope to answer with the data we have is how a salesperson can use the features of a property to predict his/her rate of success of making a sale, features such as overall size, price, age, number of rooms, with or without a fireplace, etc. We are looking to achieve at least 80% accuracy with our model with the data available.<br /> 
 
 ### Resources
-- **Input:**
-- **Software/Tools:** Python, Jupyter Notebook
+- **Input:** Total_Sales.csv, Total_Neighborhood.csv
+- **Software/Tools:** Python, Jupyter Notebook, Tableau
 - **Output:**
 
 ## Project Details
@@ -21,13 +21,14 @@ Repository set up in GitHub and access provided to all Team 1 resources (Carlos 
 Primary team communication will be done using the "group-1" channel on Slack. Meetins will be set up regularly over Zoom for team collaboration and checkpoints.
 
 ### Database *("Circle" Role)*
-*ENTER SEGMENT 1 DETAILS HERE: TBD to fill-in*
+*ENTER SEGMENT 1 DETAILS HERE: Koiyan to fill-in*
 
 ### Machine Learning *("Triangle" Role)*
 *ENTER SEGMENT 1 DETAILS HERE: Carlos to fill-in*
 
 ### Dashboard/Presentation 
-*No dashboard info needed to segment 1*
+The dashboard will be developed in Tableau Dasgboard with the presentation created with Tableau Story. An initial draft of the dashboard has been created although the sales outcome data is simulated and needs to be connected to the machine learning model.  
+[Sample Dashboard](https://public.tableau.com/profile/mike.horstman#!/vizhome/Final_Project_Example/TheSellerNextDoor?publish=yes)
 
 ## Results
 
