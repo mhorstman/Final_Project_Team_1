@@ -52,7 +52,7 @@ We run through 16 supervised machine learning models, and evaluate their perform
 - [x] Balanced Accuracy Score
 - [x] F1 i.e 'Harmonic Mean' Score
 
-The best model turns out to be a simple Logistic Regression with a few important modifications. We separate out Single Family Homes from Condos, we scale the data, and we perform a Principal Components Analysis which reduces the features to 3 columns. This is then applied to all seven neighborhoods and both property categories (Single Family Home and Condo). The resulting predictions are in the 
+The best model turns out to be a simple Logistic Regression with a few important modifications. We separate out Single Family Homes from Condos, we scale the data, and we perform a Principal Components Analysis which reduces the features to 3 columns. This is then applied to all seven neighborhoods and both property categories (Single Family Home and Condo). The resulting predictions are in the 'Output Files' folder.
 
 ### Dashboard/Presentation 
 The dashboard will be developed in Tableau Dasgboard with the presentation created with Tableau Story. An initial draft of the dashboard has been created although the sales outcome data is simulated and needs to be connected to the machine learning model.  
