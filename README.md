@@ -54,6 +54,10 @@ We run through 16 supervised machine learning models, and evaluate their perform
 
 The best model turns out to be a simple Logistic Regression with a few important modifications. We separate out Single Family Homes from Condos, we scale the data, and we perform a Principal Components Analysis which reduces the features to 3 columns. This is then applied to all seven neighborhoods and both property categories (Single Family Home and Condo). The resulting predictions are in the 'Output Files' folder.
 
+One of the principal challenges for our machine learning model is the nearly indistinguishable nature of sellers vs non-sellers. To illustrate this point, the below are screenshots of running the data through an unsupervised learning model, which groups the properties into 4 clusters. Sales are marked in yellow, non-sales are in blue. 
+
+<img src = "https://github.com/mhorstman/Final_Project_Team_1/blob/main/Clusters_Screenshot.png">
+
 ### Dashboard/Presentation 
 The dashboard is being developed in Tableau. The dashboard uses the output of the machine learning model to plot the results in an interactive and user-friendly format. The dashboard can be seen at the following link and additional detail on the dashboard elements are discussed in the sections below. 
 [Tableau Dashboard](https://public.tableau.com/profile/mike.horstman#!/vizhome/Final_Project_Dashboard_Team1/DashboardTheSellerNextDoor?publish=yes)
