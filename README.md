@@ -60,10 +60,10 @@ The dashboard is being developed in Tableau. The dashboard uses the output of th
 
 #### Dashboard Elements
 1. **Neighborhood Map**: The first map shows the boundaries of each of the 7 neighborhoods in Los Angeles that the machine learning model was run on. The color of each of the neighborhoods corresponds to the percentage of sales that the model predicted correctly with the lowest percentage in Hollywood at 56% and the highest percentage in Hollywood Hills at 71%. When clicking on the neighborhood the Sales Predictions in the other parts of the dashboard are filtered accordingly. A screenshot of this element of the dashboard is included below. 
-![Neighborhood Map](https://github.com/mhorstman/Final_Project_Team_1/tree/main/Dashboard/images/Neighborhood_Map.png)
+![Neighborhood Map](https://github.com/mhorstman/Final_Project_Team_1/blob/main/Dashboard/images/Neighborhood_Map.png)
 
 2. **Sales Predictions**: The second map shows the results of the machine learning model. Properties that the model predicted correctly are plotted as a green circle, and incorrect predictions are plotted as a red circle. To the right of the map are the interactive elements where the map can be filtered on Prediction Result, Property Type, and Results Detail. The associated sales prediction table shows the number of properties in each Results Detail category. A screenshot of this element of the dashboard is included below. 
-![Sales Predictions](https://github.com/mhorstman/Final_Project_Team_1/tree/main/Dashboard/images/Sales_Prediction.png)
+![Sales Predictions](https://github.com/mhorstman/Final_Project_Team_1/blob/main/Dashboard/images/Sales_Prediction.png)
 
 
 ## Results
