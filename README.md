@@ -58,6 +58,8 @@ One of the principal challenges for our machine learning model is the nearly ind
 
 <img src = "https://github.com/mhorstman/Final_Project_Team_1/blob/main/Clusters_Screenshots_Combined.png">
 
+___
+
 ### Dashboard/Presentation 
 The dashboard is being developed in Tableau. The dashboard uses the output of the machine learning model to plot the results in an interactive and user-friendly format. The dashboard can be seen at the following link and additional detail on the dashboard elements are discussed in the sections below. 
 [Tableau Dashboard](https://public.tableau.com/profile/mike.horstman#!/vizhome/Final_Project_Dashboard_Team1/DashboardTheSellerNextDoor?publish=yes)
