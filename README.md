@@ -36,6 +36,8 @@ Create an AWS RDS database for easy connectivity amongst group members.
 Setup Postgres using PG Admin and connect with AWS using Endpoint for connectivity.
 Create two tables "Sales and Total" with foreign and primary keys under the real-estate database. Import the data form cleaned real-estate CSV data.
 Changed the rule of the CIDR/IP - Inbound Type to make the database visible to PG Admin
+Added a database join (https://github.com/mhorstman/Final_Project_Team_1/blob/Database/join%20snapshot.png)
+
 
 ### Machine Learning *("Triangle" Role)*
 For each neigborhood we read in two files - the total neighborhood csv file, and the recent sales csv file. After adding a new column to the sales file, titled 'Did it sell?', which will later become our Target column, we merge our two dataframes, which both share a column called 'Parcel'. 
