@@ -56,6 +56,8 @@ We run through 16 supervised machine learning models, and evaluate their perform
 
 The best model turns out to be a simple Logistic Regression with a few important modifications. We separate out Single Family Homes from Condos, we scale the data, and we perform a Principal Components Analysis which reduces the features to 3 columns. This is then applied to all seven neighborhoods and both property categories (Single Family Home and Condo). The resulting predictions are in the 'Output Files' folder.
 
+While other models may have had a higher accuracy score, they did so because they would predict that all sell, or non-sell. The model we ended up going with had the best balance of precision, and recall for both sales and non-sales. 
+
 One of the principal challenges for our machine learning model is the nearly indistinguishable nature of sellers vs non-sellers. To illustrate this point, the below are screenshots of running the data through an unsupervised learning model, which groups the properties into 4 clusters. Sales are marked in yellow, non-sales are in blue. 
 
 <img src = "https://github.com/mhorstman/Final_Project_Team_1/blob/main/Clusters_Screenshots_Combined.png">
