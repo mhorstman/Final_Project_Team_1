@@ -40,7 +40,11 @@ Added a database join (https://github.com/mhorstman/Final_Project_Team_1/blob/Da
 
 
 ### Machine Learning *("Triangle" Role)*
-For each neigborhood we read in two files - the total neighborhood csv file, and the recent sales csv file. After adding a new column to the sales file, titled 'Did it sell?', which will later become our Target column, we merge our two dataframes, which both share a column called 'Parcel'. 
+For each neigborhood we read in two files - the total neighborhood csv file, and the recent sales csv file. The total neighborhood file includes information related to the structure, like size and year built, as well as financial info such as Loan Amount, Purchase Price, Tax Amount, and Year of Purchase. 
+
+
+
+After adding a new column to the sales file, titled 'Did it sell?', which will later become our Target column, we merge our two dataframes, which both share a column called 'Parcel'. 
 
 Once the two files are merged we drop some columns that we don't need and convert all of our columns that have binary values like 'yes' and 'no' to '1' and '0'. Then we encode all of our columns that have categorical data. At this stage we are now ready to begin our machine learning. 
 
