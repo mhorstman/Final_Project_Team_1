@@ -66,6 +66,8 @@ One of the principal challenges for our machine learning model is the nearly ind
 
 <img src = "https://github.com/mhorstman/Final_Project_Team_1/blob/main/Clusters_Screenshots_Combined.png">
 
+However, despite this broad-level similarity, there are subtle but clear distinctions between the sellers and non-sellers. More on that in the summary.
+
 ___
 
 ### Dashboard/Presentation 
