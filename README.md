@@ -64,6 +64,8 @@ While other models may have had a higher accuracy score, they did so because the
 
 <img src = "https://github.com/mhorstman/Final_Project_Team_1/blob/main/Classification_Report_HancockPark_SFR.png" width="800">
 
+Ultimately, the accuracy scores were not as high as we would have liked. There are additional steps we could take. For starters, there is the K-Folds and the Train-Dev Set technique pioneered by Andrew Ng. Both improve on the training & testing step of the process by splitting the training segment into multiple sub-segments and training the model on a portion of each sub-segment. 
+
 One of the principal challenges for our machine learning model is the nearly indistinguishable nature of sellers vs non-sellers. To illustrate this point, the below are screenshots of running the data through an unsupervised learning model, which groups the properties into 4 clusters. Sales are marked in yellow, non-sales are in blue. 
 
 <img src = "https://github.com/mhorstman/Final_Project_Team_1/blob/main/Clusters_Screenshots_Combined.png">
