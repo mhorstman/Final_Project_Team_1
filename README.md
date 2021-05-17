@@ -58,7 +58,21 @@ We run through 16 supervised machine learning models, and evaluate their perform
 - [x] Balanced Accuracy Score
 - [x] F1 i.e 'Harmonic Mean' Score
 
-The best model turns out to be a simple Logistic Regression with a few important modifications. We separate out Single Family Homes from Condos, we scale the data, and we perform a Principal Components Analysis which reduces the features to 3 columns. This is then applied to all seven neighborhoods and both property categories (Single Family Home and Condo). The resulting predictions are in the 'Output Files' folder.
+The best model turns out to be a simple Logistic Regression with a few important modifications. Here's the step by step process. 
+
+- [x] filter the dataframe to only be SFR's or Condos 
+- [x] create our features (our X) and our target (our y)
+      Our y is just the 'Did it sell?' column of the dataframe. Our X is every other remaining column.
+      
+- [x] Perform a Principal Components Analysis which reduces the features down to 3 columns
+- [x] Split our data into training and testing sets
+- [x] Scale our data using a StandardScaler
+- [x] Oversample our data using a random oversampler applied to the minority class (the properties that sold)
+- [x] Instantiate our ML model, which is a Logistic Regression
+- [x] Fit our model to our data
+- [x] Evaluate our model
+
+This is then applied to all seven neighborhoods and both property categories (Single Family Home and Condo). The resulting predictions are in the 'Output Files' folder.
 
 While other models may have had a higher accuracy score, they did so because they would predict that all sell, or non-sell. The model we ended up going with had the best balance of precision, and recall for both sales and non-sales. 
 
