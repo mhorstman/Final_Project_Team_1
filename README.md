@@ -62,8 +62,7 @@ The best model turns out to be a simple Logistic Regression with a few important
 
 - [x] filter the dataframe to only be SFR's or Condos 
 - [x] create our features (our X) and our target (our y)
-      Our y is just the 'Did it sell?' column of the dataframe. Our X is every other remaining column.
-      
+      Our y is just the 'Did it sell?' column of the dataframe. Our X is every other remaining column.  
 - [x] Perform a Principal Components Analysis which reduces the features down to 3 columns
 - [x] Split our data into training and testing sets
 - [x] Scale our data using a StandardScaler
