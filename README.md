@@ -1,7 +1,7 @@
 # GW Bootcamp Final Project - Team 1
 GitHub repository for GW Data Visualization and Analytics Bootcamp final project
 
-## Overview *("X" Role)*
+## Overview
 The purpose of the project is to dig deep into the residential real estate market in selected regions around Los Angeles, CA., to analyze the patterns and characteristics of property sales. The result of our analysis is a machine learning model that can predict the likelihood of a successful sale of a specific property. <br />  
 
 We secured data from several Los Angeles neighborhoods as they looked in 2017. Then, we look at the sales in those neighborhoods in 2018, 2019, 2020, and Q1 2021. Since the source data contains a lot of information about property i.e size, date of purchase, loan amount, tax amount etc, we believe that with the right machine learning model, it will be possible to tell the sellers from the non-sellers. 
@@ -31,7 +31,7 @@ Repository set up in GitHub and access provided to all Team 1 resources (Carlos 
 #### Communications Protocols
 Primary team communication will be done using the "group-1" channel on Slack. Meetins will be set up regularly over Zoom for team collaboration and checkpoints.
 
-### Database *("Circle" Role)*
+### Database
 Create an AWS RDS database for easy connectivity amongst group members. 
 Setup Postgres using PG Admin and connect with AWS using Endpoint for connectivity.
 Create two tables "Sales and Total" with foreign and primary keys under the real-estate database. Import the data form cleaned real-estate CSV data.
@@ -39,7 +39,7 @@ Changed the rule of the CIDR/IP - Inbound Type to make the database visible to P
 Added a database join (https://github.com/mhorstman/Final_Project_Team_1/blob/Database/join%20snapshot.png)
 
 
-### Machine Learning *("Triangle" Role)*
+### Machine Learning
 For each neigborhood we read in two files - the total neighborhood csv file, and the recent sales csv file. The total neighborhood file includes information related to the structure, like size and year built, as well as financial info such as Loan Amount, Purchase Price, Tax Amount, and Year of Purchase. 
 
 <img src="https://github.com/mhorstman/Final_Project_Team_1/blob/main/Features_Screenshot_2.png">
@@ -99,7 +99,5 @@ The dashboard is being developed in Tableau. The dashboard uses the output of th
 ![Sales Predictions](https://github.com/mhorstman/Final_Project_Team_1/blob/main/Dashboard/images/Sales_Prediction.png)
 
 
-## Results
-
-
-## Summary
+#### Presentation
+The final presentation can be found on Google Docs at the following link: [Final Presentation](https://docs.google.com/presentation/d/1BpO26w_Dp1q9Gn95eNtn6ZHGHQliEBFB6HwTJMy1NCc/edit?usp=sharing)
